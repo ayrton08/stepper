@@ -19,9 +19,9 @@ export interface Step {
 }
 
 const steps = [
-  { name: 'Payment', icon: faCreditCard },
-  { name: 'Shipping', icon: faShippingFast },
   { name: 'User', icon: faUser },
+  { name: 'Shipping', icon: faShippingFast },
+  { name: 'Payment', icon: faCreditCard },
 ];
 
 const WrapperStepper = () => {
